@@ -1,0 +1,26 @@
+pages:
+  home:
+    label: Página inicial
+    file: src/index.md
+
+    fields:
+      title:
+        label: Título
+        type: text
+        required: true
+        max_length: 80
+
+      description:
+        label: Descrição
+        type: textarea
+        required: true
+        max_length: 160
+
+      button_text:
+        label: Texto do botão
+        type: text
+        max_length: 40
+
+      button_url:
+        label: Link do botão
+        type: url
